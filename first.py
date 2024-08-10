@@ -1,3 +1,4 @@
+# use of different method in list 
 marks=[]
 m1=int(input("enter marks of 1"))
 marks.append(m1)
@@ -12,4 +13,12 @@ marks.append(m5)
 m6=int(input("enter marks of 6"))
 marks.append(m6)
 marks.sort()
+print(marks)
+print(marks[1])
+marks.reverse()
+print(marks)
+print(marks[1])
+marks.insert(2,18)
+print(marks)
+marks.pop(2)
 print(marks)
